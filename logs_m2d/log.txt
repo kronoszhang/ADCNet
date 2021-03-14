@@ -1,0 +1,2136 @@
+================================================
+*****         The 0-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+702 23
+Epoch: [0][50/482]	Time 0.194 (0.259)	Data 0.000 (0.016)	ReIDLoss 28.743 (30.324)	AttLoss 0.584 (0.659)	Loss 28.743 (30.324)	Prec 0.00% (1.06%)	
+Epoch: [0][100/482]	Time 0.191 (0.227)	Data 0.000 (0.008)	ReIDLoss 26.534 (29.401)	AttLoss 0.520 (0.597)	Loss 26.534 (29.401)	Prec 0.00% (1.44%)	
+Epoch: [0][150/482]	Time 0.188 (0.214)	Data 0.000 (0.005)	ReIDLoss 28.445 (28.787)	AttLoss 0.460 (0.554)	Loss 28.445 (28.787)	Prec 3.12% (2.17%)	
+Epoch: [0][200/482]	Time 0.187 (0.207)	Data 0.000 (0.004)	ReIDLoss 25.264 (28.103)	AttLoss 0.414 (0.522)	Loss 25.264 (28.103)	Prec 9.38% (2.92%)	
+Epoch: [0][250/482]	Time 0.187 (0.202)	Data 0.000 (0.003)	ReIDLoss 23.775 (27.461)	AttLoss 0.343 (0.498)	Loss 23.775 (27.461)	Prec 3.12% (4.01%)	
+Epoch: [0][300/482]	Time 0.198 (0.201)	Data 0.000 (0.003)	ReIDLoss 22.897 (26.965)	AttLoss 0.361 (0.479)	Loss 22.897 (26.965)	Prec 0.00% (4.42%)	
+Epoch: [0][350/482]	Time 0.202 (0.200)	Data 0.000 (0.003)	ReIDLoss 21.269 (26.402)	AttLoss 0.369 (0.464)	Loss 21.269 (26.402)	Prec 18.75% (5.57%)	
+Epoch: [0][400/482]	Time 0.188 (0.200)	Data 0.000 (0.002)	ReIDLoss 20.784 (25.813)	AttLoss 0.341 (0.453)	Loss 20.784 (25.813)	Prec 43.75% (7.75%)	
+Epoch: [0][450/482]	Time 0.201 (0.199)	Data 0.000 (0.002)	ReIDLoss 18.977 (25.105)	AttLoss 0.446 (0.444)	Loss 18.977 (25.105)	Prec 62.50% (12.30%)	
+
+ * Finished epoch   0 
+
+Epoch: [1][50/482]	Time 0.197 (0.215)	Data 0.000 (0.016)	ReIDLoss 19.194 (21.776)	AttLoss 0.337 (0.353)	Loss 19.194 (21.776)	Prec 40.62% (13.75%)	
+Epoch: [1][100/482]	Time 0.204 (0.207)	Data 0.000 (0.008)	ReIDLoss 21.546 (21.269)	AttLoss 0.333 (0.345)	Loss 21.546 (21.269)	Prec 6.25% (15.06%)	
+Epoch: [1][150/482]	Time 0.185 (0.202)	Data 0.000 (0.006)	ReIDLoss 19.225 (21.097)	AttLoss 0.310 (0.339)	Loss 19.225 (21.097)	Prec 18.75% (15.48%)	
+Epoch: [1][200/482]	Time 0.201 (0.200)	Data 0.000 (0.004)	ReIDLoss 19.591 (20.729)	AttLoss 0.360 (0.337)	Loss 19.591 (20.729)	Prec 28.12% (17.11%)	
+Epoch: [1][250/482]	Time 0.202 (0.200)	Data 0.000 (0.003)	ReIDLoss 19.308 (20.450)	AttLoss 0.290 (0.334)	Loss 19.308 (20.450)	Prec 31.25% (18.50%)	
+Epoch: [1][300/482]	Time 0.189 (0.199)	Data 0.000 (0.003)	ReIDLoss 18.179 (20.167)	AttLoss 0.297 (0.333)	Loss 18.179 (20.167)	Prec 28.12% (21.09%)	
+Epoch: [1][350/482]	Time 0.201 (0.199)	Data 0.000 (0.003)	ReIDLoss 17.633 (19.919)	AttLoss 0.298 (0.330)	Loss 17.633 (19.919)	Prec 46.88% (23.73%)	
+Epoch: [1][400/482]	Time 0.187 (0.199)	Data 0.000 (0.002)	ReIDLoss 19.279 (19.675)	AttLoss 0.335 (0.330)	Loss 19.279 (19.675)	Prec 34.38% (26.47%)	
+Epoch: [1][450/482]	Time 0.203 (0.198)	Data 0.000 (0.002)	ReIDLoss 15.372 (19.308)	AttLoss 0.342 (0.329)	Loss 15.372 (19.308)	Prec 87.50% (31.11%)	
+
+ * Finished epoch   1 
+
+Epoch: [2][50/482]	Time 0.205 (0.217)	Data 0.000 (0.017)	ReIDLoss 17.436 (18.680)	AttLoss 0.309 (0.316)	Loss 17.436 (18.680)	Prec 50.00% (31.06%)	
+Epoch: [2][100/482]	Time 0.186 (0.208)	Data 0.000 (0.009)	ReIDLoss 17.907 (18.396)	AttLoss 0.296 (0.312)	Loss 17.907 (18.396)	Prec 37.50% (34.66%)	
+Epoch: [2][150/482]	Time 0.189 (0.204)	Data 0.000 (0.006)	ReIDLoss 18.702 (18.235)	AttLoss 0.274 (0.312)	Loss 18.702 (18.235)	Prec 31.25% (36.81%)	
+Epoch: [2][200/482]	Time 0.199 (0.202)	Data 0.000 (0.005)	ReIDLoss 19.301 (18.156)	AttLoss 0.287 (0.311)	Loss 19.301 (18.156)	Prec 46.88% (38.58%)	
+Epoch: [2][250/482]	Time 0.204 (0.201)	Data 0.000 (0.004)	ReIDLoss 17.657 (18.074)	AttLoss 0.286 (0.308)	Loss 17.657 (18.074)	Prec 62.50% (40.09%)	
+Epoch: [2][300/482]	Time 0.193 (0.200)	Data 0.000 (0.003)	ReIDLoss 15.849 (17.995)	AttLoss 0.303 (0.307)	Loss 15.849 (17.995)	Prec 78.12% (41.59%)	
+Epoch: [2][350/482]	Time 0.194 (0.200)	Data 0.000 (0.003)	ReIDLoss 16.814 (17.894)	AttLoss 0.280 (0.306)	Loss 16.814 (17.894)	Prec 62.50% (43.40%)	
+Epoch: [2][400/482]	Time 0.203 (0.200)	Data 0.000 (0.002)	ReIDLoss 16.225 (17.786)	AttLoss 0.314 (0.306)	Loss 16.225 (17.786)	Prec 68.75% (45.33%)	
+Epoch: [2][450/482]	Time 0.206 (0.200)	Data 0.000 (0.002)	ReIDLoss 14.709 (17.541)	AttLoss 0.291 (0.306)	Loss 14.709 (17.541)	Prec 90.62% (48.84%)	
+
+ * Finished epoch   2 
+
+Epoch: [3][50/482]	Time 0.197 (0.213)	Data 0.000 (0.017)	ReIDLoss 17.791 (17.811)	AttLoss 0.270 (0.301)	Loss 17.791 (17.811)	Prec 31.25% (40.50%)	
+Epoch: [3][100/482]	Time 0.202 (0.206)	Data 0.000 (0.009)	ReIDLoss 17.113 (17.609)	AttLoss 0.304 (0.299)	Loss 17.113 (17.609)	Prec 50.00% (46.00%)	
+Epoch: [3][150/482]	Time 0.187 (0.201)	Data 0.000 (0.006)	ReIDLoss 17.137 (17.538)	AttLoss 0.328 (0.298)	Loss 17.137 (17.538)	Prec 65.62% (48.29%)	
+Epoch: [3][200/482]	Time 0.192 (0.200)	Data 0.000 (0.005)	ReIDLoss 17.829 (17.453)	AttLoss 0.265 (0.297)	Loss 17.829 (17.453)	Prec 65.62% (50.19%)	
+Epoch: [3][250/482]	Time 0.202 (0.200)	Data 0.000 (0.004)	ReIDLoss 17.464 (17.383)	AttLoss 0.326 (0.297)	Loss 17.464 (17.383)	Prec 65.62% (51.09%)	
+Epoch: [3][300/482]	Time 0.196 (0.199)	Data 0.000 (0.003)	ReIDLoss 16.949 (17.318)	AttLoss 0.306 (0.297)	Loss 16.949 (17.318)	Prec 46.88% (52.51%)	
+Epoch: [3][350/482]	Time 0.203 (0.199)	Data 0.000 (0.003)	ReIDLoss 17.283 (17.238)	AttLoss 0.282 (0.297)	Loss 17.283 (17.238)	Prec 65.62% (53.87%)	
+Epoch: [3][400/482]	Time 0.200 (0.199)	Data 0.000 (0.002)	ReIDLoss 15.778 (17.144)	AttLoss 0.304 (0.297)	Loss 15.778 (17.144)	Prec 81.25% (55.66%)	
+Epoch: [3][450/482]	Time 0.202 (0.199)	Data 0.000 (0.002)	ReIDLoss 13.524 (16.943)	AttLoss 0.286 (0.296)	Loss 13.524 (16.943)	Prec 90.62% (58.35%)	
+
+ * Finished epoch   3 
+
+Epoch: [4][50/482]	Time 0.204 (0.218)	Data 0.000 (0.018)	ReIDLoss 15.820 (17.244)	AttLoss 0.314 (0.298)	Loss 15.820 (17.244)	Prec 68.75% (52.63%)	
+Epoch: [4][100/482]	Time 0.200 (0.209)	Data 0.000 (0.009)	ReIDLoss 16.653 (17.064)	AttLoss 0.267 (0.295)	Loss 16.653 (17.064)	Prec 62.50% (57.47%)	
+Epoch: [4][150/482]	Time 0.191 (0.205)	Data 0.000 (0.006)	ReIDLoss 15.842 (17.005)	AttLoss 0.248 (0.294)	Loss 15.842 (17.005)	Prec 87.50% (59.17%)	
+Epoch: [4][200/482]	Time 0.201 (0.203)	Data 0.000 (0.005)	ReIDLoss 17.248 (16.961)	AttLoss 0.268 (0.293)	Loss 17.248 (16.961)	Prec 65.62% (59.83%)	
+Epoch: [4][250/482]	Time 0.189 (0.201)	Data 0.000 (0.004)	ReIDLoss 15.963 (16.975)	AttLoss 0.299 (0.292)	Loss 15.963 (16.975)	Prec 71.88% (59.86%)	
+Epoch: [4][300/482]	Time 0.190 (0.199)	Data 0.000 (0.003)	ReIDLoss 15.880 (16.948)	AttLoss 0.270 (0.293)	Loss 15.880 (16.948)	Prec 75.00% (60.05%)	
+Epoch: [4][350/482]	Time 0.192 (0.198)	Data 0.000 (0.003)	ReIDLoss 16.365 (16.911)	AttLoss 0.285 (0.294)	Loss 16.365 (16.911)	Prec 68.75% (60.78%)	
+Epoch: [4][400/482]	Time 0.201 (0.197)	Data 0.000 (0.003)	ReIDLoss 15.770 (16.858)	AttLoss 0.300 (0.294)	Loss 15.770 (16.858)	Prec 71.88% (61.65%)	
+Epoch: [4][450/482]	Time 0.199 (0.197)	Data 0.000 (0.002)	ReIDLoss 14.789 (16.657)	AttLoss 0.292 (0.295)	Loss 14.789 (16.657)	Prec 78.12% (63.85%)	
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.057 (0.076)	Data 0.000 (0.017)	
+Extract Features: [100/482]	Time 0.056 (0.067)	Data 0.000 (0.008)	
+Extract Features: [150/482]	Time 0.056 (0.063)	Data 0.000 (0.006)	
+Extract Features: [200/482]	Time 0.057 (0.062)	Data 0.000 (0.004)	
+Extract Features: [250/482]	Time 0.057 (0.061)	Data 0.000 (0.003)	
+Extract Features: [300/482]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/482]	Time 0.058 (0.060)	Data 0.000 (0.002)	
+Extract Features: [400/482]	Time 0.057 (0.059)	Data 0.000 (0.002)	
+Extract Features: [450/482]	Time 0.056 (0.059)	Data 0.000 (0.002)	
+Extract Features: [50/405]	Time 0.058 (0.073)	Data 0.000 (0.015)	
+Extract Features: [100/405]	Time 0.057 (0.066)	Data 0.000 (0.007)	
+Extract Features: [150/405]	Time 0.056 (0.063)	Data 0.000 (0.005)	
+Extract Features: [200/405]	Time 0.056 (0.062)	Data 0.000 (0.004)	
+Extract Features: [250/405]	Time 0.057 (0.061)	Data 0.000 (0.003)	
+Extract Features: [300/405]	Time 0.057 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/405]	Time 0.056 (0.060)	Data 0.000 (0.002)	
+Extract Features: [400/405]	Time 0.056 (0.060)	Data 0.000 (0.002)	
+Extract Features: [50/106]	Time 0.058 (0.072)	Data 0.000 (0.014)	
+Extract Features: [100/106]	Time 0.056 (0.065)	Data 0.000 (0.007)	
+Extract Features: [50/410]	Time 0.056 (0.076)	Data 0.000 (0.015)	
+Extract Features: [100/410]	Time 0.056 (0.067)	Data 0.000 (0.008)	
+Extract Features: [150/410]	Time 0.056 (0.064)	Data 0.000 (0.005)	
+Extract Features: [200/410]	Time 0.057 (0.062)	Data 0.000 (0.004)	
+Extract Features: [250/410]	Time 0.057 (0.061)	Data 0.000 (0.003)	
+Extract Features: [300/410]	Time 0.058 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/410]	Time 0.057 (0.060)	Data 0.000 (0.002)	
+Extract Features: [400/410]	Time 0.055 (0.060)	Data 0.000 (0.002)	
+Extracting feature and rerank=False finished, 101.05 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_0/cluster_file.txt
+#cluster: 1060
+Cluster time: 4297.57 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 1-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_0/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.057 (0.079)	Data 0.000 (0.022)	
+Extract Features: [100/482]	Time 0.054 (0.067)	Data 0.000 (0.011)	
+Extract Features: [150/482]	Time 0.058 (0.063)	Data 0.000 (0.007)	
+Extract Features: [200/482]	Time 0.056 (0.062)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.057 (0.060)	Data 0.000 (0.004)	
+Extract Features: [300/482]	Time 0.058 (0.060)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.054 (0.059)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.056 (0.059)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.055 (0.058)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.055 (0.077)	Data 0.000 (0.020)	
+Extract Features: [100/405]	Time 0.058 (0.067)	Data 0.000 (0.010)	
+Extract Features: [150/405]	Time 0.058 (0.063)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.056 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.060 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/405]	Time 0.062 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.054 (0.059)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.059 (0.075)	Data 0.000 (0.018)	
+Extract Features: [100/106]	Time 0.054 (0.066)	Data 0.000 (0.009)	
+Extract Features: [50/410]	Time 0.065 (0.077)	Data 0.000 (0.018)	
+Extract Features: [100/410]	Time 0.060 (0.068)	Data 0.000 (0.009)	
+Extract Features: [150/410]	Time 0.058 (0.065)	Data 0.000 (0.006)	
+Extract Features: [200/410]	Time 0.056 (0.064)	Data 0.000 (0.004)	
+Extract Features: [250/410]	Time 0.059 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.057 (0.062)	Data 0.000 (0.003)	
+Extract Features: [350/410]	Time 0.058 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.057 (0.060)	Data 0.000 (0.002)	
+Extracting feature and rerank=False finished, 99.68 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_1/cluster_file.txt
+#cluster: 1060
+Cluster time: 4321.45 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 2-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_1/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.058 (0.080)	Data 0.000 (0.023)	
+Extract Features: [100/482]	Time 0.058 (0.068)	Data 0.000 (0.011)	
+Extract Features: [150/482]	Time 0.062 (0.065)	Data 0.000 (0.008)	
+Extract Features: [200/482]	Time 0.060 (0.063)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.059 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.057 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.058 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.059 (0.060)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.055 (0.077)	Data 0.000 (0.020)	
+Extract Features: [100/405]	Time 0.059 (0.067)	Data 0.000 (0.010)	
+Extract Features: [150/405]	Time 0.057 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.056 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.059 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.187 (0.061)	Data 0.000 (0.003)	
+Extract Features: [350/405]	Time 0.059 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.062 (0.077)	Data 0.000 (0.019)	
+Extract Features: [100/106]	Time 0.056 (0.066)	Data 0.000 (0.010)	
+Extract Features: [50/410]	Time 0.058 (0.077)	Data 0.000 (0.019)	
+Extract Features: [100/410]	Time 0.057 (0.067)	Data 0.000 (0.009)	
+Extract Features: [150/410]	Time 0.057 (0.064)	Data 0.000 (0.006)	
+Extract Features: [200/410]	Time 0.056 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.057 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.056 (0.061)	Data 0.000 (0.003)	
+Extract Features: [350/410]	Time 0.057 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.054 (0.060)	Data 0.000 (0.002)	
+Extracting feature and rerank=False finished, 101.42 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_2/cluster_file.txt
+#cluster: 1060
+Cluster time: 4381.91 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 3-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_2/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.055 (0.079)	Data 0.000 (0.022)	
+Extract Features: [100/482]	Time 0.055 (0.068)	Data 0.000 (0.011)	
+Extract Features: [150/482]	Time 0.059 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/482]	Time 0.055 (0.062)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/482]	Time 0.055 (0.060)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.054 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.054 (0.059)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.054 (0.059)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.055 (0.078)	Data 0.000 (0.021)	
+Extract Features: [100/405]	Time 0.054 (0.067)	Data 0.000 (0.010)	
+Extract Features: [150/405]	Time 0.055 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.058 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.055 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.057 (0.060)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.053 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.055 (0.078)	Data 0.000 (0.020)	
+Extract Features: [100/106]	Time 0.054 (0.067)	Data 0.000 (0.010)	
+Extract Features: [50/410]	Time 0.057 (0.078)	Data 0.000 (0.020)	
+Extract Features: [100/410]	Time 0.056 (0.067)	Data 0.000 (0.010)	
+Extract Features: [150/410]	Time 0.062 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.059 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.059 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.056 (0.061)	Data 0.000 (0.003)	
+Extract Features: [350/410]	Time 0.057 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 99.91 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_3/cluster_file.txt
+#cluster: 1060
+Cluster time: 4313.72 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 4-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_3/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.058 (0.083)	Data 0.000 (0.024)	
+Extract Features: [100/482]	Time 0.059 (0.070)	Data 0.000 (0.012)	
+Extract Features: [150/482]	Time 0.059 (0.066)	Data 0.000 (0.008)	
+Extract Features: [200/482]	Time 0.058 (0.064)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.058 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.055 (0.062)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.059 (0.061)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.053 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.056 (0.080)	Data 0.000 (0.023)	
+Extract Features: [100/405]	Time 0.057 (0.068)	Data 0.000 (0.011)	
+Extract Features: [150/405]	Time 0.055 (0.065)	Data 0.000 (0.008)	
+Extract Features: [200/405]	Time 0.054 (0.063)	Data 0.000 (0.006)	
+Extract Features: [250/405]	Time 0.060 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/405]	Time 0.058 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.057 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.056 (0.079)	Data 0.000 (0.022)	
+Extract Features: [100/106]	Time 0.056 (0.069)	Data 0.000 (0.011)	
+Extract Features: [50/410]	Time 0.060 (0.080)	Data 0.000 (0.022)	
+Extract Features: [100/410]	Time 0.055 (0.069)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.056 (0.065)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.059 (0.063)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.057 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.055 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 101.75 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_4/cluster_file.txt
+#cluster: 1060
+Cluster time: 4289.05 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 5-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_4/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.054 (0.080)	Data 0.000 (0.024)	
+Extract Features: [100/482]	Time 0.054 (0.069)	Data 0.000 (0.012)	
+Extract Features: [150/482]	Time 0.056 (0.064)	Data 0.000 (0.008)	
+Extract Features: [200/482]	Time 0.055 (0.063)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.058 (0.061)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.056 (0.060)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.057 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.056 (0.059)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.054 (0.059)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.054 (0.079)	Data 0.000 (0.023)	
+Extract Features: [100/405]	Time 0.054 (0.068)	Data 0.000 (0.011)	
+Extract Features: [150/405]	Time 0.056 (0.065)	Data 0.000 (0.008)	
+Extract Features: [200/405]	Time 0.056 (0.063)	Data 0.000 (0.006)	
+Extract Features: [250/405]	Time 0.056 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/405]	Time 0.055 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.057 (0.078)	Data 0.000 (0.020)	
+Extract Features: [100/106]	Time 0.056 (0.068)	Data 0.000 (0.010)	
+Extract Features: [50/410]	Time 0.055 (0.078)	Data 0.000 (0.021)	
+Extract Features: [100/410]	Time 0.056 (0.069)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.055 (0.065)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.056 (0.063)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.056 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.058 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 99.94 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_5/cluster_file.txt
+#cluster: 1060
+Cluster time: 4306.00 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 6-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_5/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.058 (0.082)	Data 0.000 (0.025)	
+Extract Features: [100/482]	Time 0.054 (0.070)	Data 0.000 (0.012)	
+Extract Features: [150/482]	Time 0.058 (0.066)	Data 0.000 (0.008)	
+Extract Features: [200/482]	Time 0.059 (0.063)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.056 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.059 (0.062)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.055 (0.061)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.055 (0.061)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.062 (0.079)	Data 0.000 (0.021)	
+Extract Features: [100/405]	Time 0.059 (0.068)	Data 0.000 (0.010)	
+Extract Features: [150/405]	Time 0.061 (0.065)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.057 (0.063)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.057 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.061 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.055 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.057 (0.078)	Data 0.000 (0.021)	
+Extract Features: [100/106]	Time 0.057 (0.068)	Data 0.000 (0.011)	
+Extract Features: [50/410]	Time 0.056 (0.081)	Data 0.000 (0.022)	
+Extract Features: [100/410]	Time 0.062 (0.070)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.060 (0.066)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.061 (0.064)	Data 0.000 (0.006)	
+Extract Features: [250/410]	Time 0.056 (0.063)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.056 (0.062)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.056 (0.062)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.059 (0.061)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 103.20 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_6/cluster_file.txt
+#cluster: 1060
+Cluster time: 4287.44 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 7-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_6/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.055 (0.081)	Data 0.000 (0.024)	
+Extract Features: [100/482]	Time 0.056 (0.068)	Data 0.000 (0.012)	
+Extract Features: [150/482]	Time 0.060 (0.064)	Data 0.000 (0.008)	
+Extract Features: [200/482]	Time 0.054 (0.062)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.054 (0.061)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.057 (0.060)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.054 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.056 (0.059)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.056 (0.059)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.055 (0.078)	Data 0.000 (0.021)	
+Extract Features: [100/405]	Time 0.054 (0.067)	Data 0.000 (0.011)	
+Extract Features: [150/405]	Time 0.055 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.056 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.057 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.056 (0.060)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.054 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.057 (0.078)	Data 0.000 (0.020)	
+Extract Features: [100/106]	Time 0.054 (0.067)	Data 0.000 (0.010)	
+Extract Features: [50/410]	Time 0.056 (0.077)	Data 0.000 (0.020)	
+Extract Features: [100/410]	Time 0.056 (0.067)	Data 0.000 (0.010)	
+Extract Features: [150/410]	Time 0.057 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.055 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.060 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.057 (0.061)	Data 0.000 (0.003)	
+Extract Features: [350/410]	Time 0.058 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 99.61 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_7/cluster_file.txt
+#cluster: 1060
+Cluster time: 4334.11 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 8-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_7/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.056 (0.085)	Data 0.000 (0.027)	
+Extract Features: [100/482]	Time 0.056 (0.071)	Data 0.000 (0.014)	
+Extract Features: [150/482]	Time 0.061 (0.067)	Data 0.000 (0.009)	
+Extract Features: [200/482]	Time 0.055 (0.064)	Data 0.000 (0.007)	
+Extract Features: [250/482]	Time 0.055 (0.063)	Data 0.000 (0.006)	
+Extract Features: [300/482]	Time 0.061 (0.062)	Data 0.000 (0.005)	
+Extract Features: [350/482]	Time 0.057 (0.061)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.060 (0.061)	Data 0.000 (0.004)	
+Extract Features: [450/482]	Time 0.055 (0.061)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.057 (0.080)	Data 0.000 (0.020)	
+Extract Features: [100/405]	Time 0.057 (0.068)	Data 0.000 (0.010)	
+Extract Features: [150/405]	Time 0.063 (0.065)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.055 (0.063)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.056 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.059 (0.061)	Data 0.000 (0.003)	
+Extract Features: [350/405]	Time 0.062 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.057 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.056 (0.079)	Data 0.000 (0.022)	
+Extract Features: [100/106]	Time 0.055 (0.070)	Data 0.000 (0.011)	
+Extract Features: [50/410]	Time 0.060 (0.081)	Data 0.000 (0.021)	
+Extract Features: [100/410]	Time 0.055 (0.069)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.059 (0.065)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.059 (0.063)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.057 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.057 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.056 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 102.30 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_8/cluster_file.txt
+#cluster: 1060
+Cluster time: 4297.28 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 9-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_8/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.055 (0.109)	Data 0.000 (0.027)	
+Extract Features: [100/482]	Time 0.106 (0.098)	Data 0.000 (0.013)	
+Extract Features: [150/482]	Time 0.205 (0.092)	Data 0.000 (0.009)	
+Extract Features: [200/482]	Time 0.060 (0.092)	Data 0.000 (0.007)	
+Extract Features: [250/482]	Time 0.108 (0.088)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.057 (0.087)	Data 0.000 (0.005)	
+Extract Features: [350/482]	Time 0.059 (0.087)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.055 (0.087)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.056 (0.088)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.057 (0.121)	Data 0.000 (0.023)	
+Extract Features: [100/405]	Time 0.059 (0.104)	Data 0.000 (0.012)	
+Extract Features: [150/405]	Time 0.056 (0.097)	Data 0.000 (0.008)	
+Extract Features: [200/405]	Time 0.199 (0.094)	Data 0.000 (0.006)	
+Extract Features: [250/405]	Time 0.056 (0.093)	Data 0.000 (0.005)	
+Extract Features: [300/405]	Time 0.148 (0.090)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.065 (0.089)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.059 (0.087)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.056 (0.106)	Data 0.000 (0.021)	
+Extract Features: [100/106]	Time 0.055 (0.092)	Data 0.000 (0.011)	
+Extract Features: [50/410]	Time 0.057 (0.109)	Data 0.000 (0.023)	
+Extract Features: [100/410]	Time 0.058 (0.096)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.057 (0.092)	Data 0.000 (0.008)	
+Extract Features: [200/410]	Time 0.202 (0.090)	Data 0.000 (0.006)	
+Extract Features: [250/410]	Time 0.056 (0.090)	Data 0.000 (0.005)	
+Extract Features: [300/410]	Time 0.217 (0.089)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.060 (0.089)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.058 (0.088)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 140.45 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_9/cluster_file.txt
+#cluster: 1060
+Cluster time: 4391.17 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 10-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_9/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.057 (0.102)	Data 0.000 (0.026)	
+Extract Features: [100/482]	Time 0.057 (0.085)	Data 0.000 (0.013)	
+Extract Features: [150/482]	Time 0.057 (0.082)	Data 0.000 (0.009)	
+Extract Features: [200/482]	Time 0.059 (0.079)	Data 0.000 (0.007)	
+Extract Features: [250/482]	Time 0.056 (0.079)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.067 (0.079)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.099 (0.079)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.060 (0.078)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.113 (0.078)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.062 (0.100)	Data 0.000 (0.022)	
+Extract Features: [100/405]	Time 0.061 (0.089)	Data 0.000 (0.011)	
+Extract Features: [150/405]	Time 0.140 (0.083)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.060 (0.083)	Data 0.000 (0.006)	
+Extract Features: [250/405]	Time 0.056 (0.081)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.056 (0.080)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.056 (0.080)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.058 (0.079)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.062 (0.099)	Data 0.000 (0.021)	
+Extract Features: [100/106]	Time 0.139 (0.089)	Data 0.000 (0.010)	
+Extract Features: [50/410]	Time 0.058 (0.092)	Data 0.000 (0.021)	
+Extract Features: [100/410]	Time 0.057 (0.085)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.056 (0.085)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.060 (0.078)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.057 (0.079)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.056 (0.079)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.055 (0.079)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.056 (0.078)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 128.65 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_10/cluster_file.txt
+#cluster: 1060
+Cluster time: 4288.74 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 11-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_10/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.059 (0.081)	Data 0.000 (0.023)	
+Extract Features: [100/482]	Time 0.055 (0.069)	Data 0.000 (0.012)	
+Extract Features: [150/482]	Time 0.054 (0.065)	Data 0.000 (0.008)	
+Extract Features: [200/482]	Time 0.054 (0.063)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.055 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.057 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.053 (0.059)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.063 (0.078)	Data 0.000 (0.021)	
+Extract Features: [100/405]	Time 0.056 (0.067)	Data 0.000 (0.011)	
+Extract Features: [150/405]	Time 0.058 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.056 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.061 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.060 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.061 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.055 (0.081)	Data 0.000 (0.021)	
+Extract Features: [100/106]	Time 0.054 (0.069)	Data 0.000 (0.011)	
+Extract Features: [50/410]	Time 0.056 (0.079)	Data 0.000 (0.020)	
+Extract Features: [100/410]	Time 0.063 (0.068)	Data 0.000 (0.010)	
+Extract Features: [150/410]	Time 0.056 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.055 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.060 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.055 (0.061)	Data 0.000 (0.003)	
+Extract Features: [350/410]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 100.63 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_11/cluster_file.txt
+#cluster: 1060
+Cluster time: 4294.28 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 12-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_11/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.057 (0.087)	Data 0.000 (0.028)	
+Extract Features: [100/482]	Time 0.055 (0.071)	Data 0.000 (0.014)	
+Extract Features: [150/482]	Time 0.058 (0.066)	Data 0.000 (0.009)	
+Extract Features: [200/482]	Time 0.060 (0.064)	Data 0.000 (0.007)	
+Extract Features: [250/482]	Time 0.056 (0.062)	Data 0.000 (0.006)	
+Extract Features: [300/482]	Time 0.055 (0.061)	Data 0.000 (0.005)	
+Extract Features: [350/482]	Time 0.055 (0.061)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.055 (0.060)	Data 0.000 (0.004)	
+Extract Features: [450/482]	Time 0.053 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.055 (0.080)	Data 0.000 (0.021)	
+Extract Features: [100/405]	Time 0.055 (0.068)	Data 0.000 (0.011)	
+Extract Features: [150/405]	Time 0.055 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.057 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.060 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.056 (0.060)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.057 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.055 (0.059)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.055 (0.080)	Data 0.000 (0.022)	
+Extract Features: [100/106]	Time 0.055 (0.068)	Data 0.000 (0.011)	
+Extract Features: [50/410]	Time 0.056 (0.082)	Data 0.000 (0.021)	
+Extract Features: [100/410]	Time 0.055 (0.069)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.058 (0.065)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.056 (0.063)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.056 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.061 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 99.82 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_12/cluster_file.txt
+#cluster: 1060
+Cluster time: 4264.85 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 13-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_12/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.058 (0.083)	Data 0.000 (0.025)	
+Extract Features: [100/482]	Time 0.057 (0.070)	Data 0.000 (0.013)	
+Extract Features: [150/482]	Time 0.056 (0.065)	Data 0.000 (0.008)	
+Extract Features: [200/482]	Time 0.060 (0.064)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.057 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.054 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.058 (0.060)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.054 (0.059)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.054 (0.078)	Data 0.000 (0.021)	
+Extract Features: [100/405]	Time 0.055 (0.068)	Data 0.000 (0.010)	
+Extract Features: [150/405]	Time 0.060 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.057 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.055 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.055 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.057 (0.078)	Data 0.000 (0.020)	
+Extract Features: [100/106]	Time 0.055 (0.067)	Data 0.000 (0.010)	
+Extract Features: [50/410]	Time 0.055 (0.079)	Data 0.000 (0.021)	
+Extract Features: [100/410]	Time 0.058 (0.068)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.057 (0.065)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.057 (0.064)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.055 (0.063)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.055 (0.062)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.055 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 100.39 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_13/cluster_file.txt
+#cluster: 1060
+Cluster time: 4327.94 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 14-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_13/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.216 (0.165)	Data 0.000 (0.027)	
+Extract Features: [100/482]	Time 0.057 (0.150)	Data 0.000 (0.014)	
+Extract Features: [150/482]	Time 0.219 (0.153)	Data 0.000 (0.009)	
+Extract Features: [200/482]	Time 0.216 (0.149)	Data 0.000 (0.007)	
+Extract Features: [250/482]	Time 0.056 (0.146)	Data 0.000 (0.006)	
+Extract Features: [300/482]	Time 0.055 (0.148)	Data 0.000 (0.005)	
+Extract Features: [350/482]	Time 0.219 (0.147)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.057 (0.145)	Data 0.000 (0.004)	
+Extract Features: [450/482]	Time 0.218 (0.146)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.059 (0.173)	Data 0.000 (0.020)	
+Extract Features: [100/405]	Time 0.221 (0.162)	Data 0.000 (0.010)	
+Extract Features: [150/405]	Time 0.058 (0.150)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.056 (0.151)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.218 (0.150)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.181 (0.148)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.058 (0.151)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.221 (0.149)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.056 (0.181)	Data 0.000 (0.020)	
+Extract Features: [100/106]	Time 0.216 (0.155)	Data 0.000 (0.010)	
+Extract Features: [50/410]	Time 0.219 (0.148)	Data 0.000 (0.021)	
+Extract Features: [100/410]	Time 0.060 (0.155)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.217 (0.151)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.222 (0.149)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.061 (0.149)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.134 (0.152)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.221 (0.148)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.057 (0.150)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 223.74 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_14/cluster_file.txt
+#cluster: 1060
+Cluster time: 4410.78 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 15-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_14/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.218 (0.168)	Data 0.000 (0.026)	
+Extract Features: [100/482]	Time 0.061 (0.156)	Data 0.000 (0.013)	
+Extract Features: [150/482]	Time 0.059 (0.158)	Data 0.000 (0.009)	
+Extract Features: [200/482]	Time 0.222 (0.154)	Data 0.000 (0.007)	
+Extract Features: [250/482]	Time 0.217 (0.154)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.056 (0.150)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.141 (0.153)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.222 (0.150)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.056 (0.150)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.059 (0.158)	Data 0.000 (0.020)	
+Extract Features: [100/405]	Time 0.220 (0.159)	Data 0.000 (0.010)	
+Extract Features: [150/405]	Time 0.061 (0.147)	Data 0.000 (0.007)	
+Extract Features: [200/405]	Time 0.222 (0.148)	Data 0.000 (0.005)	
+Extract Features: [250/405]	Time 0.058 (0.145)	Data 0.000 (0.004)	
+Extract Features: [300/405]	Time 0.058 (0.147)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.068 (0.148)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.216 (0.148)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.057 (0.132)	Data 0.000 (0.022)	
+Extract Features: [100/106]	Time 0.057 (0.096)	Data 0.000 (0.011)	
+Extract Features: [50/410]	Time 0.057 (0.083)	Data 0.000 (0.023)	
+Extract Features: [100/410]	Time 0.056 (0.070)	Data 0.000 (0.012)	
+Extract Features: [150/410]	Time 0.056 (0.066)	Data 0.000 (0.008)	
+Extract Features: [200/410]	Time 0.058 (0.064)	Data 0.000 (0.006)	
+Extract Features: [250/410]	Time 0.062 (0.063)	Data 0.000 (0.005)	
+Extract Features: [300/410]	Time 0.056 (0.062)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.056 (0.062)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.058 (0.062)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 182.69 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_15/cluster_file.txt
+#cluster: 1060
+Cluster time: 4343.48 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 16-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_15/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.059 (0.086)	Data 0.000 (0.026)	
+Extract Features: [100/482]	Time 0.057 (0.072)	Data 0.000 (0.013)	
+Extract Features: [150/482]	Time 0.058 (0.067)	Data 0.000 (0.009)	
+Extract Features: [200/482]	Time 0.055 (0.064)	Data 0.000 (0.007)	
+Extract Features: [250/482]	Time 0.064 (0.063)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.058 (0.062)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.058 (0.061)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.056 (0.080)	Data 0.000 (0.023)	
+Extract Features: [100/405]	Time 0.060 (0.070)	Data 0.000 (0.011)	
+Extract Features: [150/405]	Time 0.057 (0.065)	Data 0.000 (0.008)	
+Extract Features: [200/405]	Time 0.055 (0.063)	Data 0.000 (0.006)	
+Extract Features: [250/405]	Time 0.055 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/405]	Time 0.061 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.056 (0.083)	Data 0.000 (0.026)	
+Extract Features: [100/106]	Time 0.055 (0.070)	Data 0.000 (0.013)	
+Extract Features: [50/410]	Time 0.057 (0.084)	Data 0.000 (0.023)	
+Extract Features: [100/410]	Time 0.059 (0.070)	Data 0.000 (0.012)	
+Extract Features: [150/410]	Time 0.057 (0.066)	Data 0.000 (0.008)	
+Extract Features: [200/410]	Time 0.055 (0.064)	Data 0.000 (0.006)	
+Extract Features: [250/410]	Time 0.055 (0.063)	Data 0.000 (0.005)	
+Extract Features: [300/410]	Time 0.057 (0.062)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.056 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 101.10 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_16/cluster_file.txt
+#cluster: 1060
+Cluster time: 4268.18 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 17-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_16/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.058 (0.081)	Data 0.000 (0.024)	
+Extract Features: [100/482]	Time 0.056 (0.069)	Data 0.000 (0.012)	
+Extract Features: [150/482]	Time 0.059 (0.064)	Data 0.000 (0.008)	
+Extract Features: [200/482]	Time 0.053 (0.062)	Data 0.000 (0.006)	
+Extract Features: [250/482]	Time 0.055 (0.061)	Data 0.000 (0.005)	
+Extract Features: [300/482]	Time 0.055 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.055 (0.060)	Data 0.000 (0.004)	
+Extract Features: [400/482]	Time 0.057 (0.060)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.056 (0.059)	Data 0.000 (0.003)	
+Extract Features: [50/405]	Time 0.056 (0.079)	Data 0.000 (0.023)	
+Extract Features: [100/405]	Time 0.056 (0.068)	Data 0.000 (0.012)	
+Extract Features: [150/405]	Time 0.057 (0.064)	Data 0.000 (0.008)	
+Extract Features: [200/405]	Time 0.059 (0.063)	Data 0.000 (0.006)	
+Extract Features: [250/405]	Time 0.055 (0.062)	Data 0.000 (0.005)	
+Extract Features: [300/405]	Time 0.055 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/405]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/405]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [50/106]	Time 0.057 (0.079)	Data 0.000 (0.022)	
+Extract Features: [100/106]	Time 0.053 (0.068)	Data 0.000 (0.011)	
+Extract Features: [50/410]	Time 0.057 (0.079)	Data 0.000 (0.021)	
+Extract Features: [100/410]	Time 0.059 (0.069)	Data 0.000 (0.011)	
+Extract Features: [150/410]	Time 0.057 (0.065)	Data 0.000 (0.007)	
+Extract Features: [200/410]	Time 0.056 (0.063)	Data 0.000 (0.005)	
+Extract Features: [250/410]	Time 0.056 (0.062)	Data 0.000 (0.004)	
+Extract Features: [300/410]	Time 0.057 (0.061)	Data 0.000 (0.004)	
+Extract Features: [350/410]	Time 0.061 (0.061)	Data 0.000 (0.003)	
+Extract Features: [400/410]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extracting feature and rerank=False finished, 100.18 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_17/cluster_file.txt
+#cluster: 1060
+Cluster time: 4767.00 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 18-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_17/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.154 (0.184)	Data 0.000 (0.033)	
+Extract Features: [100/482]	Time 0.183 (0.170)	Data 0.000 (0.017)	
+Extract Features: [150/482]	Time 0.151 (0.164)	Data 0.000 (0.011)	
+Extract Features: [200/482]	Time 0.132 (0.163)	Data 0.000 (0.009)	
+Extract Features: [250/482]	Time 0.085 (0.161)	Data 0.000 (0.007)	
+Extract Features: [300/482]	Time 0.088 (0.157)	Data 0.000 (0.006)	
+Extract Features: [350/482]	Time 0.104 (0.153)	Data 0.000 (0.005)	
+Extract Features: [400/482]	Time 0.149 (0.150)	Data 0.000 (0.004)	
+Extract Features: [450/482]	Time 0.077 (0.143)	Data 0.000 (0.004)	
+Extract Features: [50/405]	Time 0.056 (0.093)	Data 0.000 (0.031)	
+Extract Features: [100/405]	Time 0.074 (0.079)	Data 0.000 (0.016)	
+Extract Features: [150/405]	Time 0.061 (0.076)	Data 0.000 (0.010)	
+Extract Features: [200/405]	Time 0.066 (0.076)	Data 0.000 (0.008)	
+Extract Features: [250/405]	Time 0.130 (0.076)	Data 0.000 (0.006)	
+Extract Features: [300/405]	Time 0.112 (0.083)	Data 0.000 (0.005)	
+Extract Features: [350/405]	Time 0.124 (0.085)	Data 0.000 (0.005)	
+Extract Features: [400/405]	Time 0.078 (0.087)	Data 0.000 (0.004)	
+Extract Features: [50/106]	Time 0.090 (0.100)	Data 0.000 (0.033)	
+Extract Features: [100/106]	Time 0.095 (0.105)	Data 0.000 (0.016)	
+Extract Features: [50/410]	Time 0.120 (0.146)	Data 0.000 (0.036)	
+Extract Features: [100/410]	Time 0.118 (0.122)	Data 0.000 (0.018)	
+Extract Features: [150/410]	Time 0.115 (0.124)	Data 0.000 (0.012)	
+Extract Features: [200/410]	Time 0.123 (0.120)	Data 0.000 (0.009)	
+Extract Features: [250/410]	Time 0.086 (0.115)	Data 0.000 (0.007)	
+Extract Features: [300/410]	Time 0.098 (0.112)	Data 0.000 (0.006)	
+Extract Features: [350/410]	Time 0.120 (0.112)	Data 0.000 (0.005)	
+Extract Features: [400/410]	Time 0.089 (0.112)	Data 0.000 (0.005)	
+Extracting feature and rerank=False finished, 178.89 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_18/cluster_file.txt
+#cluster: 1060
+Cluster time: 4507.53 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 19-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_18/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.055 (0.079)	Data 0.000 (0.019)	
+Extract Features: [100/482]	Time 0.054 (0.068)	Data 0.000 (0.010)	
+Extract Features: [150/482]	Time 0.059 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/482]	Time 0.058 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/482]	Time 0.055 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/482]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/482]	Time 0.062 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.055 (0.059)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.054 (0.059)	Data 0.000 (0.002)	
+Extract Features: [50/405]	Time 0.059 (0.075)	Data 0.000 (0.016)	
+Extract Features: [100/405]	Time 0.057 (0.067)	Data 0.000 (0.008)	
+Extract Features: [150/405]	Time 0.058 (0.064)	Data 0.000 (0.005)	
+Extract Features: [200/405]	Time 0.060 (0.062)	Data 0.000 (0.004)	
+Extract Features: [250/405]	Time 0.054 (0.061)	Data 0.000 (0.003)	
+Extract Features: [300/405]	Time 0.058 (0.061)	Data 0.000 (0.003)	
+Extract Features: [350/405]	Time 0.059 (0.060)	Data 0.000 (0.002)	
+Extract Features: [400/405]	Time 0.055 (0.060)	Data 0.000 (0.002)	
+Extract Features: [50/106]	Time 0.062 (0.073)	Data 0.000 (0.015)	
+Extract Features: [100/106]	Time 0.056 (0.066)	Data 0.000 (0.008)	
+Extract Features: [50/410]	Time 0.057 (0.073)	Data 0.000 (0.016)	
+Extract Features: [100/410]	Time 0.055 (0.065)	Data 0.000 (0.008)	
+Extract Features: [150/410]	Time 0.055 (0.063)	Data 0.000 (0.005)	
+Extract Features: [200/410]	Time 0.057 (0.061)	Data 0.000 (0.004)	
+Extract Features: [250/410]	Time 0.060 (0.061)	Data 0.000 (0.003)	
+Extract Features: [300/410]	Time 0.059 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/410]	Time 0.055 (0.060)	Data 0.000 (0.002)	
+Extract Features: [400/410]	Time 0.060 (0.060)	Data 0.000 (0.002)	
+Extracting feature and rerank=False finished, 99.91 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_19/cluster_file.txt
+#cluster: 1060
+Cluster time: 4253.34 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 20-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_19/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.057 (0.076)	Data 0.000 (0.019)	
+Extract Features: [100/482]	Time 0.054 (0.066)	Data 0.000 (0.009)	
+Extract Features: [150/482]	Time 0.060 (0.063)	Data 0.000 (0.006)	
+Extract Features: [200/482]	Time 0.058 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/482]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/482]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/482]	Time 0.058 (0.059)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.057 (0.059)	Data 0.000 (0.002)	
+Extract Features: [450/482]	Time 0.053 (0.059)	Data 0.000 (0.002)	
+Extract Features: [50/405]	Time 0.058 (0.071)	Data 0.000 (0.014)	
+Extract Features: [100/405]	Time 0.056 (0.064)	Data 0.000 (0.007)	
+Extract Features: [150/405]	Time 0.056 (0.061)	Data 0.000 (0.005)	
+Extract Features: [200/405]	Time 0.056 (0.061)	Data 0.000 (0.004)	
+Extract Features: [250/405]	Time 0.060 (0.060)	Data 0.000 (0.003)	
+Extract Features: [300/405]	Time 0.055 (0.059)	Data 0.000 (0.002)	
+Extract Features: [350/405]	Time 0.055 (0.059)	Data 0.000 (0.002)	
+Extract Features: [400/405]	Time 0.053 (0.059)	Data 0.000 (0.002)	
+Extract Features: [50/106]	Time 0.056 (0.072)	Data 0.000 (0.015)	
+Extract Features: [100/106]	Time 0.056 (0.065)	Data 0.000 (0.007)	
+Extract Features: [50/410]	Time 0.057 (0.072)	Data 0.000 (0.014)	
+Extract Features: [100/410]	Time 0.062 (0.065)	Data 0.000 (0.007)	
+Extract Features: [150/410]	Time 0.055 (0.064)	Data 0.000 (0.005)	
+Extract Features: [200/410]	Time 0.055 (0.062)	Data 0.000 (0.004)	
+Extract Features: [250/410]	Time 0.056 (0.061)	Data 0.000 (0.003)	
+Extract Features: [300/410]	Time 0.061 (0.061)	Data 0.000 (0.002)	
+Extract Features: [350/410]	Time 0.056 (0.060)	Data 0.000 (0.002)	
+Extract Features: [400/410]	Time 0.056 (0.060)	Data 0.000 (0.002)	
+Extracting feature and rerank=False finished, 99.25 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_20/cluster_file.txt
+#cluster: 1060
+Cluster time: 4266.89 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 21-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_20/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.056 (0.078)	Data 0.000 (0.020)	
+Extract Features: [100/482]	Time 0.060 (0.067)	Data 0.000 (0.010)	
+Extract Features: [150/482]	Time 0.054 (0.063)	Data 0.000 (0.007)	
+Extract Features: [200/482]	Time 0.058 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/482]	Time 0.061 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/482]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/482]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.058 (0.059)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.053 (0.059)	Data 0.000 (0.002)	
+Extract Features: [50/405]	Time 0.054 (0.072)	Data 0.000 (0.016)	
+Extract Features: [100/405]	Time 0.055 (0.064)	Data 0.000 (0.008)	
+Extract Features: [150/405]	Time 0.055 (0.061)	Data 0.000 (0.005)	
+Extract Features: [200/405]	Time 0.056 (0.060)	Data 0.000 (0.004)	
+Extract Features: [250/405]	Time 0.054 (0.060)	Data 0.000 (0.003)	
+Extract Features: [300/405]	Time 0.058 (0.059)	Data 0.000 (0.003)	
+Extract Features: [350/405]	Time 0.054 (0.059)	Data 0.000 (0.002)	
+Extract Features: [400/405]	Time 0.054 (0.058)	Data 0.000 (0.002)	
+Extract Features: [50/106]	Time 0.060 (0.071)	Data 0.000 (0.014)	
+Extract Features: [100/106]	Time 0.053 (0.063)	Data 0.000 (0.007)	
+Extract Features: [50/410]	Time 0.055 (0.071)	Data 0.000 (0.015)	
+Extract Features: [100/410]	Time 0.055 (0.064)	Data 0.000 (0.007)	
+Extract Features: [150/410]	Time 0.056 (0.061)	Data 0.000 (0.005)	
+Extract Features: [200/410]	Time 0.061 (0.060)	Data 0.000 (0.004)	
+Extract Features: [250/410]	Time 0.056 (0.060)	Data 0.000 (0.003)	
+Extract Features: [300/410]	Time 0.055 (0.059)	Data 0.000 (0.003)	
+Extract Features: [350/410]	Time 0.058 (0.059)	Data 0.000 (0.002)	
+Extract Features: [400/410]	Time 0.055 (0.059)	Data 0.000 (0.002)	
+Extracting feature and rerank=False finished, 97.90 s time used ...
+torch.Size([16483, 11776])
+torch.Size([16483, 23])
+torch.Size([12936, 2560]) torch.Size([12936, 11776]) torch.Size([12936, 23])
+torch.Size([12936, 14336])
+Discard ratio: 0.08179
+Save as: /home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_21/cluster_file.txt
+#cluster: 1060
+Cluster time: 4261.15 s ...
+Mean AP: 12.7%
+CMC Scores
+  top-1          33.8%
+  top-5          52.6%
+  top-10         61.1%
+  top-20         69.1%
+================================================
+*****         The 22-th Finetune ...        *****
+================================================
+datasets loaded
+Train Dataset:  Market-1501
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |     2 |    11878 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   30 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ train    |   702 |    16522 |   23 
+datasets loaded
+Train Dataset:  DukeMTMC-reID
+  subset  | # ids | # images | att_label
+  --------------------------------------
+ target    |   751 |    12936 |   23 
+Test Dataset:   Market-1501
+  query   |   750 |    3368 
+Test Dataset:   Market-1501
+  gallery   |   750 |   13115 
+2 23
+=> Loaded checkpoint '/home/reid/ChronousZ/work/attribute/HHL_parts/logs/log_cluster_21/checkpoint.pth.tar' except classifier...
+=> Start epoch 5 
+
+ * Finished epoch   0 
+
+
+ * Finished epoch   1 
+
+
+ * Finished epoch   2 
+
+
+ * Finished epoch   3 
+
+
+ * Finished epoch   4 
+
+Test with best model:
+Extract Features: [50/482]	Time 0.060 (0.078)	Data 0.000 (0.021)	
+Extract Features: [100/482]	Time 0.054 (0.068)	Data 0.000 (0.011)	
+Extract Features: [150/482]	Time 0.055 (0.064)	Data 0.000 (0.007)	
+Extract Features: [200/482]	Time 0.055 (0.062)	Data 0.000 (0.005)	
+Extract Features: [250/482]	Time 0.058 (0.061)	Data 0.000 (0.004)	
+Extract Features: [300/482]	Time 0.058 (0.060)	Data 0.000 (0.004)	
+Extract Features: [350/482]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [400/482]	Time 0.054 (0.060)	Data 0.000 (0.003)	
+Extract Features: [450/482]	Time 0.053 (0.059)	Data 0.000 (0.002)	
+Extract Features: [50/405]	Time 0.059 (0.072)	Data 0.000 (0.015)	
+Extract Features: [100/405]	Time 0.058 (0.065)	Data 0.000 (0.008)	
+Extract Features: [150/405]	Time 0.055 (0.062)	Data 0.000 (0.005)	
+Extract Features: [200/405]	Time 0.054 (0.061)	Data 0.000 (0.004)	
+Extract Features: [250/405]	Time 0.055 (0.060)	Data 0.000 (0.003)	
+Extract Features: [300/405]	Time 0.060 (0.060)	Data 0.000 (0.003)	
+Extract Features: [350/405]	Time 0.063 (0.060)	Data 0.000 (0.002)	
+Extract Features: [400/405]	Time 0.055 (0.059)	Data 0.000 (0.002)	
+Extract Features: [50/106]	Time 0.062 (0.073)	Data 0.000 (0.015)	
+Extract Features: [100/106]	Time 0.055 (0.065)	Data 0.000 (0.007)	
